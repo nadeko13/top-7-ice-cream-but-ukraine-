@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: linear-gradient(#D94EC2,#705ABF,#70F25C,#BFB521,#BF2C2C);
+}
+
+section img{
+width: 400px;
+}
+
+section img:hover{ 
+transform: rotate(3600deg);
+transition: 1s linear;    
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+background-color: #705ABF;
+padding: 10px;
+}
+
+nav a{
+text-decoration: none;
+color: whitesmoke;
+}
+
+nav a:hover{
+ position: relative;
+ bottom:2px;
+ color: yellow;
+ border-bottom: 2px dotted yellow;   
+}
